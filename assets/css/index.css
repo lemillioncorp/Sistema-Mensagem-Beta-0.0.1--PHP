@@ -1,0 +1,102 @@
+h1{
+    margin: 0;
+    padding: 0.5em;
+    font: 26pt Arial;
+    text-align: center;
+    background-color: #e9b97b;
+}
+h2{
+    margin: 0;
+    padding: 0.5em;
+    font: 26pt Arial;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    font: medium Arial;
+    padding: 22px 18px;
+    margin: 0.5em;
+    background-color: #e9b97b;
+}
+.item a{
+    text-decoration: none;
+    font: medium Arial;
+    padding: 22px 18px;
+    margin: 0.5em;
+}
+.item { 
+   
+    border-bottom: 2px solid #181717;
+    text-align: center;
+    text-transform: uppercase;
+    font: medium Arial;
+    padding: 1em;
+    margin: 0.5em;
+    background-color: #e6e6e0e7;
+}
+
+/*=======================================================*/
+.nome{
+    text-decoration: none;
+    padding: 0.5em;
+    color: #7070da;
+}
+form{
+    border: 3px solid #d6d6fa;
+    padding: 1em;
+    display: flex;
+}
+textarea{
+    width: 100%;
+}
+input, button{
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    background-color: #7070da;
+}
+.box{
+    margin: 0px;
+    background-color: #f5f5f5ea;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 98%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
